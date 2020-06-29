@@ -28,7 +28,7 @@ public class ForeachLamdaExample {
 
 		// Internal Iterator - Compiler taken care of the iteration. This improve the
 		// performance in parallel execution (MultiThreading)
-		// using Lambda
+		// using Method reference
 		people.forEach(System.out::println);
 	}
 }
