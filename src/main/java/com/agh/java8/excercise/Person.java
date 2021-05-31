@@ -38,9 +38,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		System.out.println(this.firstName + " " + this.lastName + " " + this.age);
-		return super.toString();
+		return this.firstName + " " + this.lastName + " " + this.age;
 	}
 
 }
