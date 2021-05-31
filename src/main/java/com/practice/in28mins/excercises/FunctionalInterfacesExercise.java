@@ -5,12 +5,12 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-public class FunctionInterfaceExercise {
+public class FunctionalInterfacesExercise {
     List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
     List<String> courses = Arrays.asList("Spring", "Spring Boot", "API" , "Microservices", "AWS", "PCF","Azure", "Docker", "Kubernetes");
 
     public static void main(String[] args) {
-        FunctionInterfaceExercise functionInterfaceExercise = new FunctionInterfaceExercise();
+        FunctionalInterfacesExercise functionInterfaceExercise = new FunctionalInterfacesExercise();
 
         /*
         Passing behaviour as an argument
